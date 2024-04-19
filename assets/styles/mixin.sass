@@ -1,0 +1,19 @@
+
+@mixin small
+  @media only screen and (max-width: 1023px)
+    @content
+@mixin small-album
+  @media only screen and (max-width: 1023px) and (orientation: landscape)
+    @content
+
+@mixin medium
+  @media only screen and (max-width: 1215px)
+    @content
+  
+@mixin large
+  @media only screen and (max-width: 1407px)
+    @content
+
+@mixin fullhd
+  @media only screen and (min-width: 1408px)
+    @content
