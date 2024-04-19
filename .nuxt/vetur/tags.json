@@ -1,0 +1,44 @@
+{
+  "Author": {
+    "description": "Auto imported from components/author.vue"
+  },
+  "Booking": {
+    "description": "Auto imported from components/booking.vue"
+  },
+  "Feedback": {
+    "description": "Auto imported from components/feedback.vue"
+  },
+  "Footer": {
+    "description": "Auto imported from components/footer.vue"
+  },
+  "Introduction": {
+    "description": "Auto imported from components/introduction.vue"
+  },
+  "Mainslider": {
+    "description": "Auto imported from components/mainslider.vue"
+  },
+  "Modal": {
+    "description": "Auto imported from components/modal.vue"
+  },
+  "New": {
+    "description": "Auto imported from components/new.vue"
+  },
+  "PhotogalleryAd": {
+    "description": "Auto imported from components/photogallery-ad.vue"
+  },
+  "Photogallery": {
+    "description": "Auto imported from components/photogallery.vue"
+  },
+  "Quickmenu": {
+    "description": "Auto imported from components/quickmenu.vue"
+  },
+  "Shortmessage": {
+    "description": "Auto imported from components/shortmessage.vue"
+  },
+  "Slider": {
+    "description": "Auto imported from components/slider.vue"
+  },
+  "Tours": {
+    "description": "Auto imported from components/tours.vue"
+  }
+}

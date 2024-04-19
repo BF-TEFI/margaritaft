@@ -44,8 +44,24 @@
           </div>
           <div class="button-wrap"><Nuxt-link :to="{path: '/', hash: '#pack-detail'}"><button>Подробнее</button></Nuxt-link></div>
         </div>
+        <div data-slide="05" class="item">
+          <div class="price">$320</div>
+          <h1>Фотосессия + 
+            экскурсия по острову'</h1>
+          <div class="info">
+            <p>60 снимков в обработке
+              Летящие платья бесплатно
+              10 роскошных пейзажей острова</p>
+            <p>Лродолжительность фото-экскурсии: 6 часов
+              От 1 до 3 участников</p>
+          </div>
+          <div class="button-wrap"><Nuxt-link :to="{path: '/', hash: '#pack-detail'}"><button>Подробнее</button></Nuxt-link></div>
+        </div>
       </div>
       <div id="slider" class="slider__wrap">
+        <div data-slide="05" class="item">
+          <img src="~static/images/slide_item_005.jpg" alt="">
+        </div>
         <div data-slide="04" class="item">
           <img src="~static/images/slide_item_003.jpg" alt="">
         </div>

@@ -70,11 +70,15 @@ export default {
               if (entry.intersectionRect.top > 0) {
                 slogan.style.cssText = `opacity: ${opacity}`
               }
+              
             }
             if (window.innerHeight > last.getBoundingClientRect().bottom) {
               opacity = last.getBoundingClientRect().top / speed - .5
               document.querySelectorAll('.slogan').forEach((i) => {
                 i.style.cssText = `opacity: ${opacity}`
+                if (opacity <= 0) {
+                  i.style.cssText = `position: absolute`
+                }
               })
               // document.querySelector('.introduction').style.cssText = `opacity: ${opacity}`
             }
