@@ -18,7 +18,7 @@ export default {
   props: {
     showLarge: {
       type: Number,
-      default: 3,
+      default: 4,
       require: false
     },
     showMid: {

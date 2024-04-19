@@ -33,6 +33,7 @@
               <option>Smart-пакет</option>
               <option>Хит-пакет</option>
               <option>3 часа счастья</option>
+              <option>Фотосессия + экскурсия</option>
             </select>
           </div>
         </div>

@@ -172,6 +172,61 @@
         </div>
       </div>
       </div>
+      <!-- The tour -->
+      <div class="item">
+        <div class="pack_card">
+          <!-- <div class="banner">
+            <span class="banner_tag">most popular</span>
+          </div> -->
+          <div class="pack_name">Фотосессия-экскурсия по острову</div>
+
+          <p class="description">Мы свозим вас на экскурсию по самым интересным и впечатляющим местам острова Маргарита, устроим дегустацию редкого рома и будем фотографировать вас всю дорогу!</p>
+
+          <div class="lists">
+            <div class="list">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+              </svg>
+              <span>3 часа съемки</span>
+            </div>
+            <div class="list">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+              </svg>
+              <span>Летящие платья БЕСПЛАТНО</span>
+            </div>
+            <div class="list">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+              </svg>
+              <span>От 1 до 6 участников</span>
+            </div>
+            <div class="list">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+              </svg>
+
+              <span>60 снимков в обработке + 10 роскошных пейзажей острова</span>
+            </div>
+            <div class="list">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+              </svg>
+
+              <span>идеально для свадебных церемоний и особых запросов</span>
+            </div>
+            
+        </div>
+        <div class="bottom">
+          <div class="price_container">
+            <span class="devise">$</span>
+            <span class="price">300</span>
+            <!-- <span class="date">/month</span> -->
+          </div>
+          <a class="btn" href="#booking">Забронировать</a>
+        </div>
+      </div>
+      </div>
     </Slider>
     <div class="other">
       <h3>Фотосессия на Маргарите – прекрасная идея! Потому что:</h3>
@@ -208,8 +263,9 @@ export default {
   text-align: center
   color: #fff
 .item
-  width: calc( 100% / 3)
+  // width: calc( 100% / 3)
   padding: 5px
+  &:nth-child(1)
 .other
   width: 100%
   padding: 1rem
@@ -231,6 +287,7 @@ export default {
 
 <style lang="css" scoped>
 .pack_card {
+  min-height: 55vh;
   position: relative;
   display: flex;
   flex-direction: column;
