@@ -265,7 +265,6 @@ export default {
 .item
   // width: calc( 100% / 3)
   padding: 5px
-  &:nth-child(1)
 .other
   width: 100%
   padding: 1rem
