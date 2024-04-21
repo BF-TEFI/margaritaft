@@ -1,6 +1,6 @@
 <template>
   <div class="section">
-      <div v-if="title" class="title"><h2>Фотогалерея</h2></div>
+      <div v-if="title" class="title orange"><h2>Фотогалерея</h2></div>
       <div class="wrap">
         <div
           v-for="item in this.$store.state.photo.slice(0, 12)"

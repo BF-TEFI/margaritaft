@@ -1,7 +1,7 @@
 <template>
   <div>
     <div v-if="this.$store.state.feedback.length" class="section more">
-      <div class="title"><h2>Отзывы</h2></div>
+      <div class="title"><h2 class="orange">Отзывы</h2></div>
       <div class="wrap">
         <div class="scroller">
           <div v-for="item in this.$store.state.feedback" :key="item.id" @click="modal(item)" class="itm">
