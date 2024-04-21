@@ -3,7 +3,7 @@
     <div class="wrap">
       <div class="mesage">
         <p>{{msg}}
-          <slot/>
+          <slot />
         </p>
       </div>
     </div>

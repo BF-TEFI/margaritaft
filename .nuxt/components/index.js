@@ -12,7 +12,6 @@ export { default as PhotogalleryAd } from '../../components/photogallery-ad.vue'
 export { default as Photogallery } from '../../components/photogallery.vue'
 export { default as Quickmenu } from '../../components/quickmenu.vue'
 export { default as Shortmessage } from '../../components/shortmessage.vue'
-export { default as Slider } from '../../components/slider.vue'
 export { default as Tours } from '../../components/tours.vue'
 
 // nuxt/nuxt.js#8607

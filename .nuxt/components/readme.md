@@ -20,5 +20,4 @@ You can directly use them in pages and other components without the need to impo
 - `<Photogallery>` | `<photogallery>` (components/photogallery.vue)
 - `<Quickmenu>` | `<quickmenu>` (components/quickmenu.vue)
 - `<Shortmessage>` | `<shortmessage>` (components/shortmessage.vue)
-- `<Slider>` | `<slider>` (components/slider.vue)
 - `<Tours>` | `<tours>` (components/tours.vue)

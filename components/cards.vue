@@ -6,7 +6,7 @@
             </div>
             <div class="wrap">
             <div class="scroller">
-                <div class="item">
+                <div class="itm">
                     <Card 
                     t="Smart-пакет"
                     p="170"
@@ -18,7 +18,7 @@
                     b="Локации: тайный пляж, маяк, антипиратская крепость, колониальный город"
                     />
                 </div>
-                <div class="item">
+                <div class="itm">
                     <Card 
                     t="Хит-пакет"
                     p="210"
@@ -30,7 +30,7 @@
                     b="Локации: тайный пляж, маяк, антипиратская крепость, колониальный город"
                     />
                 </div>
-                <div class="item">
+                <div class="itm">
                     <Card 
                     t="3 часа счастья"
                     p="300"
@@ -42,7 +42,7 @@
                     b="Летящие платья БЕСПЛАТНО! Идеально для свадебных церемоний и особых запросов"
                     />
                 </div>
-                <div class="item">
+                <div class="itm">
                     <Card 
                     t="Фотосессия + экскурсия"
                     p="320"
@@ -112,31 +112,14 @@ export default {
   width: 100%
   text-align: center
   color: #fff
-.scroller
-    overflow-x: scroll
-    display: flex
-    justify-content: space-between
-    scroll-snap-type: x mandatory
-    @include medium
-        justify-content: stretch
-    @include small
-        justify-content: stretch
-.item
-    flex: 0 0 calc( 100% / 4 - 20px)
-    display: flex
-    justify-content: center
-    scroll-snap-align: center
-    @include medium
-        flex: 0 0 calc( 100% / 2 - 20px)
-    @include small
-        flex: 0 0 calc( 100% - 20px)
 .other
   width: 100%
   padding: 1rem
   white-space: pre
   display: flex
-  align-items: center
+  align-itms: center
   flex-direction: column
+  align-items: center
   & p
     font-weight: 600
     line-height: 2

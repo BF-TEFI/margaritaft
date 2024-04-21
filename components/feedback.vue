@@ -2,21 +2,12 @@
   <div>
     <div v-if="this.$store.state.feedback.length" class="section more">
       <div class="title"><h2>Отзывы</h2></div>
-      <Slider :showLarge="4" :showMid="3">
-        <div v-for="item in this.$store.state.feedback" :key="item.id" @click="modal(item)">
+      <div class="wrap">
+        <div class="scroller">
+          <div v-for="item in this.$store.state.feedback" :key="item.id" @click="modal(item)" class="itm">
           <div class="card">
             <div class="card-content">
               <div class="media">
-                <!-- <div class="media-left">
-                  <figure class="image card-icon">
-                    <img
-                      src="~static/icons/icon48x48.png"
-                      alt="Placeholder image"
-                      width="30px"
-                      height="30px"
-                    />
-                  </figure>
-                </div> -->
                 <div class="media-content">
                   <p class="title is-5">{{ item.name }}</p>
                   <p class="subtitle is-6">{{ item.date }} </p>
@@ -36,15 +27,8 @@
             </div>
           </div>
         </div>
-      </Slider>
-      <!-- <div class="readmore">
-        <Nuxt-link to="/feedbackcreate">
-          <button class="button is-success">Оставить отзыв</button>
-        </Nuxt-link>
-        <Nuxt-link to="/feedback">
-          <button class="button is-info">Все отзывы</button>
-        </Nuxt-link>
-      </div> -->
+        </div>
+      </div>
     </div>
   </div>
 </template>

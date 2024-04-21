@@ -41,9 +41,6 @@
   "Shortmessage": {
     "description": "Auto imported from components/shortmessage.vue"
   },
-  "Slider": {
-    "description": "Auto imported from components/slider.vue"
-  },
   "Tours": {
     "description": "Auto imported from components/tours.vue"
   }

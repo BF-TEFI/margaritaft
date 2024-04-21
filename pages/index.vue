@@ -2,7 +2,8 @@
   <div>
     <Shortmessage
     msg="Гайд по острову Маргарита."
-    > <Nuxt-link to="/">Подробнее -></Nuxt-link></Shortmessage>
+    > <Nuxt-link to="/">Подробнее -></Nuxt-link>
+  </Shortmessage>
     <Mainslider/>
     <Introduction/>
     <Cards/>

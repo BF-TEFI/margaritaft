@@ -83,10 +83,11 @@ export default {
 
 <style lang='sass' scoped>
 .wrap
-    width: 100%
+    width: 95%
     display: flex
     flex-direction: column
-    padding: 10px
+    padding: 2px
+    margin: 0 auto
     background-color: rgba(239, 239, 239, .9)
     box-shadow: 0 2px 3px #ccc
     overflow: hidden

@@ -96,8 +96,8 @@ export default {
 
 <style lang='sass' scoped>
 .modal-content
-  @include small-album
-    max-height: 100vh
+    @include small-album
+      max-height: 100vh
 .modal-photo
   max-width: 80%
   padding: 35px

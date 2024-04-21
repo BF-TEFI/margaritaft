@@ -26,3 +26,23 @@ h1, h2, h3, h4, h5, h6
 .large
   width: 100%
   min-height: 100vh
+
+// скролл
+.scroller
+    overflow-x: scroll
+    display: flex
+    // justify-content: space-between
+    scroll-snap-type: x mandatory
+    // @media only screen and (max-width: 1215px)
+        // justify-content: left
+    // @media only screen and (max-width: 1023px)
+        // justify-content: left
+.itm
+    flex: 0 0 calc( 100% / 4)
+    display: flex
+    justify-content: center
+    scroll-snap-align: center
+    @media only screen and (max-width: 1215px)
+        flex: 0 0 calc( 100% / 2)
+    @media only screen and (max-width: 1023px)
+        flex: 0 0 calc( 100%)
