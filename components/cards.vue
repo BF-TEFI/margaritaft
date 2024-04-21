@@ -104,6 +104,10 @@ export default {
     display: flex
     justify-content: center
     scroll-snap-align: center
+    @include medium
+        width: 46%
+    @include small
+        width: 96%
 </style>
 
 <style lang="css" scoped>
