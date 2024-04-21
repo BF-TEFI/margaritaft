@@ -4,7 +4,7 @@
           <p>
             Раздел находится в разработке
           </p>
-            <Nuxt-link to="/">На главную</Nuxt-link>
+          <Nuxt-link to="/">На главную</Nuxt-link>
         </div>
     </div>
   </template>

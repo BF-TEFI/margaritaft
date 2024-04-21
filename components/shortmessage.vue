@@ -30,11 +30,11 @@ export default {
 .wrap
   width: 100%
   height: 45px
-  background-color: #FFAA00
+  background-color: #ed6b3a
   display: flex
   justify-content: center
   align-items: center
-  color: #1B1BB3
+  color: #1b2338
   font-weight: 600
   @include small
     padding: 3px

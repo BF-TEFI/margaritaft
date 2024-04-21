@@ -6,7 +6,7 @@
     "chunkName": "pages/gide",
     "url": "/gide",
     "meta": {
-      "name": "IndexPage",
+      "name": "GidePage",
       "head": {
         "title": "Гайд по острову Маргарита ",
         "meta": [
@@ -22,8 +22,7 @@
           }
         ]
       }
-    },
-    "_name": "_31eeb7bc"
+    }
   },
   {
     "name": "index",
@@ -48,7 +47,6 @@
           }
         ]
       }
-    },
-    "_name": "_3fc914c9"
+    }
   }
 ]

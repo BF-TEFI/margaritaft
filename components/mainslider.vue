@@ -177,7 +177,7 @@ export default {
       margin: 1rem 0
     & .price
       font-size: 2.8rem
-      color: red
+      color: #ed6b3a
       font-weight: 700
       margin: 0
       padding: 0
@@ -224,7 +224,7 @@ export default {
     & .item h1
       font-size: 10vw
       color: #fff
-      text-shadow: 0px 0px 3px #000
+      text-shadow: 0px 0px 3px #1b2338
     & p
       color: #fff
       font-size: 1.3rem
@@ -234,10 +234,10 @@ export default {
       text-shadow: 0px 0px 3px #000
     & button
       width: 80%
-      color: #fff
+      color: #1b2338
       border-color: #000
       text-transform: uppercase
-      background: red
+      background: #ed6b3a
       &:hover
         color: #fff
 </style>

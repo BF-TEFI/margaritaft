@@ -123,12 +123,12 @@ export default {
 
   router: {
     // middleware: ['verify'],
-    scrollBehavior(to, from, savedPosition) {
-      if (to.hash) {
-        return { selector: to.hash }
-      } else {
-        return { x: 0, y: 0 }
-      }
-    }
+    // scrollBehavior(to, from, savedPosition) {
+    //   if (to.hash) {
+    //     return { selector: to.hash }
+    //   } else {
+    //     return { x: 0, y: 0 }
+    //   }
+    // }
   }
 }

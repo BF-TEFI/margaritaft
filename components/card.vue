@@ -124,11 +124,11 @@ export default {
         & .price
             width: 100%
             height: 20%
-            background-color: #FFAA00
+            background-color: #ed6b3a
             display: flex
             justify-content: center
             align-items: center
-            color: #1B1BB3
+            color: #1b2338
 .body
     & li
         display: flex
