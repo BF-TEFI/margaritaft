@@ -15,9 +15,9 @@
                 <ul>
                     <li title="Время съемки"><img src="~static/pict/time.png"><p>{{ tm }}</p></li>
                     <li title="Локации"><img src="~static/pict/location.png"><p>{{ loc }}</p></li>
-                    <li title="Образовв"><img src="~static/pict/image.png"><p>{{ img }}</p></li>
-                    <li title="Фотографий"><img src="~static/pict/photo.png"><p>{{ jpg }}</p></li>
-                    <li title="Участников"><img src="~static/pict/people.png"><p>{{ ppl }}</p></li>
+                    <li title="Образы"><img src="~static/pict/image.png"><p>{{ img }}</p></li>
+                    <li title="Фотографи"><img src="~static/pict/photo.png"><p>{{ jpg }}</p></li>
+                    <li title="Участники"><img src="~static/pict/people.png"><p>{{ ppl }}</p></li>
                 </ul>
             </div>
             <div class="bottom">
@@ -83,14 +83,13 @@ export default {
 
 <style lang='sass' scoped>
 .wrap
-    width: clamp(300px, 50%, 96%)
+    width: 100%
     display: flex
     flex-direction: column
-    padding: 5px
+    padding: 10px
     background-color: rgba(239, 239, 239, .9)
     box-shadow: 0 2px 3px #ccc
     overflow: hidden
-    margin: 0 auto
 .head, .body, .Bottom, .action
     width: 100%
     display: flex
@@ -128,7 +127,6 @@ export default {
             display: flex
             justify-content: center
             align-items: center
-            // color: #4671D5
             color: #1B1BB3
 .body
     & li

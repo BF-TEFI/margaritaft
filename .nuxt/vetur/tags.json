@@ -35,6 +35,9 @@
   "Photogallery": {
     "description": "Auto imported from components/photogallery.vue"
   },
+  "Quickmenu": {
+    "description": "Auto imported from components/quickmenu.vue"
+  },
   "Shortmessage": {
     "description": "Auto imported from components/shortmessage.vue"
   },
