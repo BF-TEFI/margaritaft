@@ -2,7 +2,9 @@
   <div>
     <div class="wrap">
       <div class="mesage">
-        <p>{{msg}}</p>
+        <p>{{msg}}
+          <slot/>
+        </p>
       </div>
     </div>
   </div>
@@ -27,14 +29,18 @@ export default {
 <style lang='sass' scoped>
 .wrap
   width: 100%
-  height: 40px
-  background-color: #000
+  height: 45px
+  background-color: #FFAA00
   display: flex
   justify-content: center
   align-items: center
-  color: #fff
+  color: #1B1BB3
+  font-weight: 600
   @include small
-    min-height: 40px
     padding: 3px
+    min-height: 45px
     text-align: center
+p
+  text-align: center
+  white-space: pre-wrap
 </style>

@@ -175,9 +175,6 @@
       <!-- The tour -->
       <div class="item">
         <div class="pack_card">
-          <!-- <div class="banner">
-            <span class="banner_tag">most popular</span>
-          </div> -->
           <div class="pack_name">Фотосессия-экскурсия по острову</div>
 
           <p class="description">Экскурсия по самым интересным и впечатляющим местам острова Маргарита, дегустация редкого рома и бфотосессия всю дорогу!</p>

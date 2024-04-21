@@ -5,6 +5,12 @@
   "Booking": {
     "description": "Auto imported from components/booking.vue"
   },
+  "Card": {
+    "description": "Auto imported from components/card.vue"
+  },
+  "Cards": {
+    "description": "Auto imported from components/cards.vue"
+  },
   "Feedback": {
     "description": "Auto imported from components/feedback.vue"
   },

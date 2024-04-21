@@ -1,5 +1,7 @@
 export { default as Author } from '../../components/author.vue'
 export { default as Booking } from '../../components/booking.vue'
+export { default as Card } from '../../components/card.vue'
+export { default as Cards } from '../../components/cards.vue'
 export { default as Feedback } from '../../components/feedback.vue'
 export { default as Footer } from '../../components/footer.vue'
 export { default as Introduction } from '../../components/introduction.vue'

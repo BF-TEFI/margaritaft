@@ -1,11 +1,11 @@
 <template>
   <div>
     <Shortmessage
-    msg="Сайт находится в режиме отладки. Некоторые функции недоступны"
-    />
+    msg="Гайд по острову Маргарита."
+    > <Nuxt-link to="/">Подробнее -></Nuxt-link></Shortmessage>
     <Mainslider/>
     <Introduction/>
-    <Quickmenu/>
+    <Cards/>
     <Photogallery/>
     <Author/>
     <Feedback/>
