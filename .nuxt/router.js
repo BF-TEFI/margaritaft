@@ -4,6 +4,7 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
+const _31eeb7bc = () => interopDefault(import('../pages/gide.vue' /* webpackChunkName: "pages/gide" */))
 const _3fc914c9 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
@@ -18,6 +19,11 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
+    path: "/gide",
+    component: _31eeb7bc,
+    meta: {"name":"IndexPage","head":{"title":"Гайд по острову Маргарита ","meta":[{"hide":"description","name":"description","content":"Мы делаем сказочные фотосессии и фото-экскурсии на острове Маргарита в Венесуэле, чтобы вы привезли самые лучшие фотографии с отдыха и запомнили эту поездку на всю жизнь. Профессионально. Стильно. Экзотично. Прозрачный прайс"},{"hide":"keywords","name":"keywords","content":""}]}},
+    name: "gide"
+  }, {
     path: "/",
     component: _3fc914c9,
     meta: {"name":"IndexPage","head":{"title":"Фотосессии и фото-экскурсии на острове Маргарита ","meta":[{"hide":"description","name":"description","content":"Мы делаем сказочные фотосессии и фото-экскурсии на острове Маргарита в Венесуэле, чтобы вы привезли самые лучшие фотографии с отдыха и запомнили эту поездку на всю жизнь. Профессионально. Стильно. Экзотично. Прозрачный прайс"},{"hide":"keywords","name":"keywords","content":""}]}},

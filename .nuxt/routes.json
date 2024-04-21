@@ -1,5 +1,31 @@
 [
   {
+    "name": "gide",
+    "path": "/gide",
+    "component": "/Users/polyakovva/DATA/margarita/margaritaft/pages/gide.vue",
+    "chunkName": "pages/gide",
+    "url": "/gide",
+    "meta": {
+      "name": "IndexPage",
+      "head": {
+        "title": "Гайд по острову Маргарита ",
+        "meta": [
+          {
+            "hide": "description",
+            "name": "description",
+            "content": "Мы делаем сказочные фотосессии и фото-экскурсии на острове Маргарита в Венесуэле, чтобы вы привезли самые лучшие фотографии с отдыха и запомнили эту поездку на всю жизнь. Профессионально. Стильно. Экзотично. Прозрачный прайс"
+          },
+          {
+            "hide": "keywords",
+            "name": "keywords",
+            "content": ""
+          }
+        ]
+      }
+    },
+    "_name": "_31eeb7bc"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "/Users/polyakovva/DATA/margarita/margaritaft/pages/index.vue",
