@@ -160,11 +160,10 @@ export default {
   // padding-bottom: 10px
 .info__wrap
   display: flex
-  height: 100vh
   flex-direction: column
   & .item
     width: 100%
-    height: 100%
+    height: 100vh
     display: flex
     padding: 50px
     flex-direction: column
