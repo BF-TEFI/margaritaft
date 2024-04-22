@@ -9,7 +9,7 @@
           </div>
         </div>
         <div data-slide="02" class="item">
-          <div class="price">$170</div>
+          <!-- <div class="price">$170</div> -->
           <h1 class="blue">Фотосессия "Smart-пакет"</h1>
           <div class="info">
             <p>25 снимков в обработке
@@ -20,7 +20,7 @@
           <div class="button-wrap"><Nuxt-link :to="{path: '/', hash: '#pack-detail'}"><button>Подробнее</button></Nuxt-link></div>
         </div>
         <div data-slide="03" class="item">
-          <div class="price">$210</div>
+          <!-- <div class="price">$210</div> -->
           <h1 class="blue">Фотосессия "Хит-пакет"</h1>
           <div class="info">
             <p>25 снимков в обработке
@@ -32,7 +32,7 @@
           <div class="button-wrap"><Nuxt-link :to="{path: '/', hash: '#pack-detail'}"><button>Подробнее</button></Nuxt-link></div>
         </div>
         <div data-slide="04" class="item">
-          <div class="price">$300</div>
+          <!-- <div class="price">$300</div> -->
           <h1 class="blue">Фотосессия
             "3 часа счастья"</h1>
           <div class="info">
@@ -45,7 +45,7 @@
           <div class="button-wrap"><Nuxt-link :to="{path: '/', hash: '#pack-detail'}"><button>Подробнее</button></Nuxt-link></div>
         </div>
         <div data-slide="05" class="item">
-          <div class="price">$320</div>
+          <!-- <div class="price">$320</div> -->
           <h1 class="blue">"Фотосессия + 
             экскурсия по острову"</h1>
           <div class="info">
@@ -160,10 +160,11 @@ export default {
   // padding-bottom: 10px
 .info__wrap
   display: flex
+  height: 100vh
   flex-direction: column
   & .item
     width: 100%
-    height: 100vh
+    height: 100%
     display: flex
     padding: 50px
     flex-direction: column
@@ -185,6 +186,7 @@ export default {
     & .info
       font-size: 1.5rem
       line-height: 1.2
+      color: #1a2036
 .slider__wrap
   height: 100vh
   position: sticky
@@ -221,9 +223,14 @@ export default {
     background-color: rgba(0, 0, 0, .3)
     & .item
       padding: 10px
+      &:nth-child(1)
+        position: relative
+        & .info
+          position: absolute
+          bottom: 5%
     & .item h1
-      font-size: 10vw
       color: #fff
+      font-size: 10vw
       text-shadow: 0px 0px 3px #1b2338
     & p
       color: #fff
