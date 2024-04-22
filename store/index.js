@@ -41,74 +41,92 @@ export const state = () => ({
   feedback_rating: null,
   photo: [
     {
+      id: 1,
       file: require('@/static/photogallery/001.jpg'),
       description: 'Фотосессии на острове Маргарита.'
     },
     {
+      id: 2,
       file: require('@/static/photogallery/002.jpg'),
       description: 'Фотосессии на острове Маргарита.'
     },
     {
+      id: 3,
       file: require('@/static/photogallery/003.jpg'),
       description: 'Фотосессии на острове Маргарита.'
     },
     {
+      id: 4,
       file: require('@/static/photogallery/004.jpeg'),
       description: 'Фотосессии на острове Маргарита.'
     },
     {
+      id: 5,
       file: require('@/static/photogallery/005.jpg'),
       description: 'Фотосессии на острове Маргарита.'
     },
     {
+      id: 6,
       file: require('@/static/photogallery/006.jpg'),
       description: 'Фотосессии на острове Маргарита.'
     },
     {
+      id: 7,
       file: require('@/static/photogallery/007.jpg'),
       description: 'Фотосессии на острове Маргарита.'
     },
     {
+      id: 8,
       file: require('@/static/photogallery/008.jpg'),
       description: 'Фотосессии на острове Маргарита.'
     },
     {
+      id: 9,
       file: require('@/static/photogallery/009.jpg'),
       description: 'Фотосессии на острове Маргарита.'
     },
     {
+      id: 10,
       file: require('@/static/photogallery/010.jpg'),
       description: 'Фотосессии на острове Маргарита.'
     },
     {
+      id: 11,
       file: require('@/static/photogallery/011.jpg'),
       description: 'Фотосессии на острове Маргарита.'
     },
     {
+      id: 12,
       file: require('@/static/photogallery/012.jpg'),
       description: 'Фотосессии на острове Маргарита.'
     },
     {
+      id: 13,
       file: require('@/static/photogallery/013.jpg'),
       description: 'Фотосессии на острове Маргарита.'
     },
     {
+      id: 14,
       file: require('@/static/photogallery/014.jpg'),
       description: 'Фотосессии на острове Маргарита.'
     },
     {
+      id: 15,
       file: require('@/static/photogallery/015.jpg'),
       description: 'Фотосессии на острове Маргарита.'
     },
     {
+      id: 16,
       file: require('@/static/photogallery/016.jpg'),
       description: 'Фотосессии на острове Маргарита.'
     },
     {
+      id: 17,
       file: require('@/static/photogallery/017.jpg'),
       description: 'Фотосессии на острове Маргарита.'
     },
     {
+      id: 18,
       file: require('@/static/photogallery/018.jpg'),
       description: 'Фотосессии на острове Маргарита.'
     }

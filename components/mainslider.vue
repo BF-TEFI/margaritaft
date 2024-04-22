@@ -63,7 +63,7 @@
           <img src="~static/images/slide_item_005.jpg" alt="">
         </div>
         <div data-slide="04" class="item">
-          <img src="~static/images/slide_item_003.jpg" alt="">
+          <img src="~static/images/slide_item_001.jpg" alt="">
         </div>
         <div data-slide="03" class="item">
           <img src="~static/images/slide_item_002.jpg" alt="">
@@ -72,7 +72,7 @@
           <img src="~static/images/slide_item_004.jpg" alt="">
         </div>
         <div data-slide="01" class="item">
-          <img src="~static/images/slide_item_001.jpg" alt="">
+          <img src="~static/images/slide_item_000.jpg" alt="">
         </div>
       </div>
       <div class="blackout"></div>
