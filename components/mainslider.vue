@@ -3,14 +3,14 @@
     <div class="main">
       <div class="info__wrap">
         <div data-slide="01" class="item">
-          <h1>MARGARITA PHOTO TRIPS</h1>
+          <h1 class="blue">MARGARITA PHOTO TRIPS</h1>
           <div class="info">
             <p>Фотосессии на острове Маргарита и необычные путешествия по Венесуэле</p>
           </div>
         </div>
         <div data-slide="02" class="item">
           <div class="price">$170</div>
-          <h1>Фотосессия "Smart-пакет"</h1>
+          <h1 class="blue">Фотосессия "Smart-пакет"</h1>
           <div class="info">
             <p>25 снимков в обработке
               10 роскошных пейзажей острова</p>
@@ -21,7 +21,7 @@
         </div>
         <div data-slide="03" class="item">
           <div class="price">$210</div>
-          <h1>Фотосессия "Хит-пакет"</h1>
+          <h1 class="blue">Фотосессия "Хит-пакет"</h1>
           <div class="info">
             <p>25 снимков в обработке
               До 3 образов
@@ -33,7 +33,7 @@
         </div>
         <div data-slide="04" class="item">
           <div class="price">$300</div>
-          <h1>Фотосессия
+          <h1 class="blue">Фотосессия
             "3 часа счастья"</h1>
           <div class="info">
             <p>60 снимков в обработке
@@ -46,7 +46,7 @@
         </div>
         <div data-slide="05" class="item">
           <div class="price">$320</div>
-          <h1>"Фотосессия + 
+          <h1 class="blue">"Фотосессия + 
             экскурсия по острову"</h1>
           <div class="info">
             <p>60 снимков в обработке

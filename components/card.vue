@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="wrap">
+        <div class="wrap" :class="{ hit: ht}">
             <div class="head">
                 <div class="info_wrap">
                     <div class="description">
@@ -73,6 +73,11 @@ export default {
             type: String,
             require: false,
             default: 'Описание продукта'
+        },
+        ht: {
+            type: Boolean,
+            require: false,
+            default: false
         }
     },
     data() {
@@ -89,6 +94,7 @@ export default {
     padding: 2px
     margin: 0 auto
     background-color: rgba(239, 239, 239, .9)
+    border: 2px solid rgba(239, 239, 239, .9)
     box-shadow: 0 2px 3px #ccc
     overflow: hidden
 .head, .body, .Bottom, .action
@@ -153,18 +159,18 @@ export default {
     display: block
     width: 100%
     border-radius: 0.5rem
-    border: 0.125em solid #4a4a4a
+    border: 0.125em solid #1a2036
     /* background-color: #3B3B3B */
     padding: 0.50rem 1rem
     text-align: center
     font-size: 0.875rem
     line-height: 1.25rem
     font-weight: 600
-    color: #3B3B3B
+    color: #1a2036
     outline: 2px solid transparent
     outline-offset: 2px
     transition: all .1s cubic-bezier(0.4, 0, 0.2, 1)
     &:hover
         color: #fff
-        background-color: #4a4a4a
+        background-color: #ed6b3a
   </style>
