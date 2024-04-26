@@ -150,8 +150,11 @@ export default {
     transform: translateX(-50%)
 @include small
   .introduction
-    height: 100vh
+    overflow: hidden
+    height: 80vh
     position: relative
+    &:nth-child(1) .item
+      height: 29vh
   .slideshow
     & img
       object-fit: cover
@@ -165,5 +168,5 @@ export default {
     transform: scale(1, 3)
     opacity: 1
   .vignette
-    margin: 0 5px
+    margin: 0 10px
 </style>

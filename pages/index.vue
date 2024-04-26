@@ -11,6 +11,7 @@
     <Author/>
     <Feedback/>
     <Booking/>
+    <Slogan/>
   </div>
 </template>
 
