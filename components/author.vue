@@ -21,16 +21,19 @@ export default {
 .wrap
   width: 100%
   height: 100vh
-  background: url('~static/images/2022-11-24 10-57-54(37).jpeg') center / cover no-repeat
+  background: url('~static/images/car02.jpg') center / cover no-repeat rgba(255, 255, 255, .5)
+  background-blend-mode: screen
   display: flex
   justify-content: center
   align-items: center
   & .text
     width: 80%
-    color: #fff
-    text-shadow: 1px 1px 1px #1a2036
+    color: #1a2036
+    text-shadow: 1px 1px 1px #fff
     text-transform: uppercase
     text-align: center
-    font-size: 1.7rem
+    font-size: 2.1rem
     font-weight: 700
+    @include small
+      font-size: 1.5rem
 </style>
