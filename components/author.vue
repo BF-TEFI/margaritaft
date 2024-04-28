@@ -21,11 +21,13 @@ export default {
 .wrap
   width: 100%
   height: 100vh
-  background: url('~static/images/car02.jpg') center / cover no-repeat rgba(255, 255, 255, .5)
+  background: url('~static/images/car02.jpg') center / cover no-repeat rgba(190, 190, 190, .8)
   background-blend-mode: screen
   display: flex
   justify-content: center
   align-items: center
+  @include small
+    height: 65vh
   & .text
     width: 80%
     color: #1a2036

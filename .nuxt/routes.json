@@ -22,7 +22,17 @@
           }
         ]
       }
-    }
+    },
+    "_name": "_31eeb7bc"
+  },
+  {
+    "name": "packages-smart",
+    "path": "/packages/smart",
+    "component": "/Users/polyakovva/DATA/margarita/margaritaft/pages/packages/smart.vue",
+    "chunkName": "pages/packages/smart",
+    "url": "/packages/smart",
+    "meta": {},
+    "_name": "_7861cc80"
   },
   {
     "name": "index",
@@ -47,6 +57,7 @@
           }
         ]
       }
-    }
+    },
+    "_name": "_3fc914c9"
   }
 ]

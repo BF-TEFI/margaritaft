@@ -17,7 +17,7 @@
             <p>Локации: тайный пляж, маяк, антипиратская крепость, колониальный город. 
               От 1 до 3 участников</p>
           </div>
-          <div class="button-wrap"><Nuxt-link :to="{path: '/', hash: '#pack-detail'}"><button>Подробнее</button></Nuxt-link></div>
+          <div class="button-wrap"><Nuxt-link :to="{path: 'packages/smart'}"><button>Подробнее</button></Nuxt-link></div>
         </div>
         <div data-slide="03" class="item">
           <!-- <div class="price">$210</div> -->

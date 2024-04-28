@@ -95,8 +95,9 @@ export default {
     margin: 0 auto
     background-color: rgba(239, 239, 239, .9)
     border: 2px solid rgba(239, 239, 239, .9)
-    box-shadow: 0 2px 3px #ccc
+    box-shadow: 0 2px 3px #666
     overflow: hidden
+    border-radius: 15px
 .head, .body, .Bottom, .action
     width: 100%
     display: flex
