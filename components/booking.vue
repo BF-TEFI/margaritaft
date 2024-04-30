@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="section is-large booking" id="booking">
+    <div class="section is-large booking">
       <div class="booking_form">
         <div class="content">
           <h4>Оставить заявку на фотосессию</h4>
@@ -94,7 +94,57 @@ export default {
         this.booking.phone = cleanvalue
       }
     }
+  },
+  methods: {
+    validate () {
+      if (this.PersonalData) {
+        if (this.booking.type !== '- Не выбрано -' && this.booking.name && this.booking.phone && this.booking.date) {
+          if (this.booking.type === 'Прыжок в тандеме' && (this.booking.height === '- укажите ваш вес -' || this.booking.weight === '- укажите ваш рост -')) {
+            this.error.status = true
+            this.error.message = 'Необходимо указать рост и вес'
+          } else {
+            this.send()
+          }
+        } else {
+          this.error = {
+            status: true, message: 'Все поля должны быть заполнены!'
+          }
+        }
+      } else {
+        this.error.status = true
+        this.error.message = 'Для отправки заявки необходимо дать согласие на обработку персональных данных'
+      }
+    },
+    send () {
+      const dat = (this.booking.type === 'Прыжок в тандеме') ? {
+        date: this.booking.date, type: 'Тандем', name: this.booking.name, weight: this.booking.weight, height: this.booking.height, phone: this.booking.phone
+      } : {
+        date: this.booking.date, type: 'Д-6', name: this.booking.name, phone: this.booking.phone
+      }
+      this.$axios.post('api/v1/booking/', {
+        data: dat
+      })
+        .then((response) => {
+          this.success.status = true
+          this.success.message = response.data.msg
+          this.booking = {
+            type: '- Не выбрано -', name: '', phone: '', height: '- укажите ваш вес -', weight: '- укажите ваш рост -', date: ''
+          }
+        })
+        .catch((err) => {
+          this.error.status = true
+          this.error.message = err
+        })
+    },
+    cleanForm () {
+      this.error = { status: false, message: '' }
+      this.success = { status: false, message: '' }
+      this.booking = {
+        type: '- Не выбрано -', name: '', phone: '', height: '- укажите ваш вес -', weight: '- укажите ваш рост -', date: ''
+      }
+    }
   }
+
 }
 </script>
 

@@ -29,7 +29,7 @@
             <p>Локации: тайный пляж, маяк, антипиратская крепость, колониальный город.
               От 1 до 3 участников</p>
           </div>
-          <div class="button-wrap"><Nuxt-link :to="{path: '/', hash: '#pack-detail'}"><button>Подробнее</button></Nuxt-link></div>
+          <div class="button-wrap"><Nuxt-link :to="{path: 'packages/hit'}"><button>Подробнее</button></Nuxt-link></div>
         </div>
         <div data-slide="04" class="item">
           <!-- <div class="price">$300</div> -->
@@ -42,7 +42,7 @@
             <p>Локации: тайный пляж, маяк, антипиратская крепость, колониальный город.
               От 1 до 6 участников</p>
           </div>
-          <div class="button-wrap"><Nuxt-link :to="{path: '/', hash: '#pack-detail'}"><button>Подробнее</button></Nuxt-link></div>
+          <div class="button-wrap"><Nuxt-link :to="{path: 'packages/happy'}"><button>Подробнее</button></Nuxt-link></div>
         </div>
         <div data-slide="05" class="item">
           <!-- <div class="price">$320</div> -->
@@ -55,7 +55,7 @@
             <p>Лродолжительность фото-экскурсии: 6 часов
               От 1 до 3 участников</p>
           </div>
-          <div class="button-wrap"><Nuxt-link :to="{path: '/', hash: '#pack-detail'}"><button>Подробнее</button></Nuxt-link></div>
+          <div class="button-wrap"><Nuxt-link :to="{path: 'packages/tour'}"><button>Подробнее</button></Nuxt-link></div>
         </div>
       </div>
       <div id="slider" class="slider__wrap">

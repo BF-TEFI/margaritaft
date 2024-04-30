@@ -1,4 +1,5 @@
 export { default as Author } from '../../components/author.vue'
+export { default as Back } from '../../components/back.vue'
 export { default as Booking } from '../../components/booking.vue'
 export { default as Card } from '../../components/card.vue'
 export { default as Cards } from '../../components/cards.vue'

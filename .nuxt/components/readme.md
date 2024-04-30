@@ -7,6 +7,7 @@ You can directly use them in pages and other components without the need to impo
 **Tip:** If a component is conditionally rendered with `v-if` and is big, it is better to use `Lazy` or `lazy-` prefix to lazy load.
 
 - `<Author>` | `<author>` (components/author.vue)
+- `<Back>` | `<back>` (components/back.vue)
 - `<Booking>` | `<booking>` (components/booking.vue)
 - `<Card>` | `<card>` (components/card.vue)
 - `<Cards>` | `<cards>` (components/cards.vue)

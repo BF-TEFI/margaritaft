@@ -68,6 +68,7 @@ export default {
                 opacity = 0
               }
               if (entry.intersectionRect.top > 0) {
+                slogan.style.cssText = `display: block`
                 slogan.style.cssText = `opacity: ${opacity}`
               }
               
@@ -90,8 +91,9 @@ export default {
     }
   )
 
+
   document.querySelectorAll('.introduction .item').forEach((i) => ob.observe(i))
-  }
+}
 }
 </script>
 

@@ -22,17 +22,47 @@
           }
         ]
       }
-    },
-    "_name": "_31eeb7bc"
+    }
   },
   {
-    "name": "packages-smart",
+    "name": "packages/happy",
+    "path": "/packages/happy",
+    "component": "/Users/polyakovva/DATA/margarita/margaritaft/pages/packages/happy.vue",
+    "chunkName": "pages/packages/happy",
+    "url": "/packages/happy",
+    "meta": {
+      "name": "HappyPackPage"
+    }
+  },
+  {
+    "name": "packages/hit",
+    "path": "/packages/hit",
+    "component": "/Users/polyakovva/DATA/margarita/margaritaft/pages/packages/hit.vue",
+    "chunkName": "pages/packages/hit",
+    "url": "/packages/hit",
+    "meta": {
+      "name": "HitPackPage"
+    }
+  },
+  {
+    "name": "packages/smart",
     "path": "/packages/smart",
     "component": "/Users/polyakovva/DATA/margarita/margaritaft/pages/packages/smart.vue",
     "chunkName": "pages/packages/smart",
     "url": "/packages/smart",
-    "meta": {},
-    "_name": "_7861cc80"
+    "meta": {
+      "name": "SmartPackPage"
+    }
+  },
+  {
+    "name": "packages/tour",
+    "path": "/packages/tour",
+    "component": "/Users/polyakovva/DATA/margarita/margaritaft/pages/packages/tour.vue",
+    "chunkName": "pages/packages/tour",
+    "url": "/packages/tour",
+    "meta": {
+      "name": "TourPackPage"
+    }
   },
   {
     "name": "index",
@@ -57,7 +87,6 @@
           }
         ]
       }
-    },
-    "_name": "_3fc914c9"
+    }
   }
 ]

@@ -5,7 +5,10 @@ import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
 const _31eeb7bc = () => interopDefault(import('../pages/gide.vue' /* webpackChunkName: "pages/gide" */))
+const _c6ab1152 = () => interopDefault(import('../pages/packages/happy.vue' /* webpackChunkName: "pages/packages/happy" */))
+const _14a5e36c = () => interopDefault(import('../pages/packages/hit.vue' /* webpackChunkName: "pages/packages/hit" */))
 const _7861cc80 = () => interopDefault(import('../pages/packages/smart.vue' /* webpackChunkName: "pages/packages/smart" */))
+const _3d8ac99e = () => interopDefault(import('../pages/packages/tour.vue' /* webpackChunkName: "pages/packages/tour" */))
 const _3fc914c9 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
@@ -25,10 +28,25 @@ export const routerOptions = {
     meta: {"name":"GidePage","head":{"title":"Гайд по острову Маргарита ","meta":[{"hide":"description","name":"description","content":"Мы делаем сказочные фотосессии и фото-экскурсии на острове Маргарита в Венесуэле, чтобы вы привезли самые лучшие фотографии с отдыха и запомнили эту поездку на всю жизнь. Профессионально. Стильно. Экзотично. Прозрачный прайс"},{"hide":"keywords","name":"keywords","content":""}]}},
     name: "gide"
   }, {
+    path: "/packages/happy",
+    component: _c6ab1152,
+    meta: {"name":"HappyPackPage"},
+    name: "packages/happy"
+  }, {
+    path: "/packages/hit",
+    component: _14a5e36c,
+    meta: {"name":"HitPackPage"},
+    name: "packages/hit"
+  }, {
     path: "/packages/smart",
     component: _7861cc80,
-    meta: {},
-    name: "packages-smart"
+    meta: {"name":"SmartPackPage"},
+    name: "packages/smart"
+  }, {
+    path: "/packages/tour",
+    component: _3d8ac99e,
+    meta: {"name":"TourPackPage"},
+    name: "packages/tour"
   }, {
     path: "/",
     component: _3fc914c9,

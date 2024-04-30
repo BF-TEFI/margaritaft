@@ -2,6 +2,9 @@
   "Author": {
     "description": "Auto imported from components/author.vue"
   },
+  "Back": {
+    "description": "Auto imported from components/back.vue"
+  },
   "Booking": {
     "description": "Auto imported from components/booking.vue"
   },
