@@ -22,6 +22,31 @@
                 </ul>
             </div>
           </div>
+          <div class="info">
+            <div class="dress">
+                <ul>
+                    <h3 class="orange">Летящее платье Персик</h3>
+                    <li>С этим платьем можно сделать фотографии как из волшебной сказки про принцессу!</li>
+                    <li>Размер: 40-50</li>
+                    <li>Стоимость аренды: 20$</li>
+                    <img src="~static/images/dress_orange.jpg" alt="">
+                    <li>Стоимость аренды: 20$</li>
+                </ul>
+                <ul>
+                    <h3 class="orange">Летящее платье Фуксия</h3>
+                    <li>С этим платьем ваши фото будут похожи на кадры из «Пиратов Карибского моря»! </li>
+                    <li>Размер: 40-54</li>
+                    <li>Стоимость аренды: 20$</li>
+                    <img src="~static/images/dress_pink.jpg" alt="">
+                    <li>Стоимость аренды: 20$</li>
+                </ul>
+                <ul>
+                    <h3 class="orange">Макияж и прическа</h3>
+                    <li>Макияж $40</li>
+                    <li>Прическа $40</li>
+                </ul>
+            </div>
+          </div>
         </div>
         <Photogallery/>
         <Booking/>
@@ -43,6 +68,14 @@ export default {
     align-items: center
 h1
     font-size: 3.4em
+    line-height: 1
+    text-align: center
+h2
+    font-size: 2.4em
+    line-height: 1
+    text-align: center
+h3
+    font-size: 1.5em
     line-height: 1
     text-align: center
 .info
@@ -69,6 +102,8 @@ h1
             font-size: 1rem
             font-weight: 600
             line-height: 2
+.dress img
+    width: 60vw
 .price
     font-size: 3.4em
     font-weight: 900
@@ -91,4 +126,6 @@ h1
         margin: 5px
     .price
         text-align: center
+    .dress img
+        width: 90vw
 </style>
