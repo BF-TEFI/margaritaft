@@ -63,4 +63,15 @@ h1
             font-size: 1rem
             font-weight: 600
             line-height: 2
+@include small
+    .wrap
+        min-height: 100vh
+        height: auto
+        padding: 10px
+    .info
+        flex-direction: column
+    h1
+        text-align: center
+        padding: 5px
+        font-size: 2.2em
 </style>
