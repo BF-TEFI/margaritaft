@@ -3,12 +3,12 @@
         <Back/>
         <div class="wrap">
             <h1 class="blue">Фотосессия "Smart-пакет"</h1>
-          <!-- <Nuxt-link to="/">На главную</Nuxt-link> -->
           <div class="info">
             <div class="photo">
           <img src="~static/images/slide_item_004.jpg" alt="">
             </div>
             <div class="more">
+                <div class="price orange">$170</div>
                 <ul>
                     <li>1.5 часа съемки</li>
                     <li>До 4 локаций </li>
@@ -19,7 +19,6 @@
                     <li>Любой жанр: лайфстайл, лавстори, медовый месяц, семейная фотосессия, ню</li>
                     <li>25 снимков в обработке + 10 роскошных пейзажей острова, снятых нами ранее</li>
                     <li>Готовые фото через неделю</li>
-                    <li></li>
                 </ul>
             </div>
           </div>
@@ -38,13 +37,14 @@ export default {
 <style lang="sass" scoped>
 .wrap
     width: 100%
-    height: 75vh
+    min-height: 75vh
     display: flex
     flex-direction: column
     align-items: center
 h1
     font-size: 3.4em
     line-height: 1
+    text-align: center
 .info
     width: 100%
     display: flex
@@ -53,25 +53,42 @@ h1
     justify-content: center
     align-items: center
     & .photo
+        flex: 0 0 60%
         padding: 5px
+        display: flex
+        max-height: 90vh
         & img
-            height: 65vh
+            object-fit: contain
+            width: 100%
+    & .more
+        flex: 0 0 40%
     & ul
         padding: 5px
-
         & li
+            list-style: circle
             font-size: 1rem
             font-weight: 600
             line-height: 2
+.price
+    font-size: 3.4em
+    font-weight: 900
+    // text-align: center
 @include small
     .wrap
         min-height: 100vh
         height: auto
         padding: 10px
+    .photo
+        width: 95%
+        margin: 0 auto
     .info
         flex-direction: column
     h1
         text-align: center
         padding: 5px
         font-size: 2.2em
+    li
+        margin: 5px
+    .price
+        text-align: center
 </style>
