@@ -6,23 +6,9 @@
     "chunkName": "pages/gide",
     "url": "/gide",
     "meta": {
-      "name": "GidePage",
-      "head": {
-        "title": "Гайд по острову Маргарита ",
-        "meta": [
-          {
-            "hide": "description",
-            "name": "description",
-            "content": "Мы делаем сказочные фотосессии и фото-экскурсии на острове Маргарита в Венесуэле, чтобы вы привезли самые лучшие фотографии с отдыха и запомнили эту поездку на всю жизнь. Профессионально. Стильно. Экзотично. Прозрачный прайс"
-          },
-          {
-            "hide": "keywords",
-            "name": "keywords",
-            "content": ""
-          }
-        ]
-      }
-    }
+      "name": "GidePage"
+    },
+    "_name": "_31eeb7bc"
   },
   {
     "name": "packages/happy",
@@ -32,7 +18,8 @@
     "url": "/packages/happy",
     "meta": {
       "name": "HappyPackPage"
-    }
+    },
+    "_name": "_c6ab1152"
   },
   {
     "name": "packages/hit",
@@ -41,8 +28,9 @@
     "chunkName": "pages/packages/hit",
     "url": "/packages/hit",
     "meta": {
-      "name": "HitPackPage"
-    }
+      "name": "hitPackPage"
+    },
+    "_name": "_14a5e36c"
   },
   {
     "name": "packages/smart",
@@ -52,7 +40,8 @@
     "url": "/packages/smart",
     "meta": {
       "name": "SmartPackPage"
-    }
+    },
+    "_name": "_7861cc80"
   },
   {
     "name": "packages/tour",
@@ -62,7 +51,8 @@
     "url": "/packages/tour",
     "meta": {
       "name": "TourPackPage"
-    }
+    },
+    "_name": "_3d8ac99e"
   },
   {
     "name": "index",
@@ -87,6 +77,7 @@
           }
         ]
       }
-    }
+    },
+    "_name": "_3fc914c9"
   }
 ]

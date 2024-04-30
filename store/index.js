@@ -136,6 +136,7 @@ export const state = () => ({
 export const mutations = {
   set_modal (state, data) {
     state.modal = data
+    console.log(data)
   },
   set_feedback (state, data) {
     state.feedback = data

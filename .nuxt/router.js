@@ -25,7 +25,7 @@ export const routerOptions = {
   routes: [{
     path: "/gide",
     component: _31eeb7bc,
-    meta: {"name":"GidePage","head":{"title":"Гайд по острову Маргарита ","meta":[{"hide":"description","name":"description","content":"Мы делаем сказочные фотосессии и фото-экскурсии на острове Маргарита в Венесуэле, чтобы вы привезли самые лучшие фотографии с отдыха и запомнили эту поездку на всю жизнь. Профессионально. Стильно. Экзотично. Прозрачный прайс"},{"hide":"keywords","name":"keywords","content":""}]}},
+    meta: {"name":"GidePage"},
     name: "gide"
   }, {
     path: "/packages/happy",
@@ -35,7 +35,7 @@ export const routerOptions = {
   }, {
     path: "/packages/hit",
     component: _14a5e36c,
-    meta: {"name":"HitPackPage"},
+    meta: {"name":"hitPackPage"},
     name: "packages/hit"
   }, {
     path: "/packages/smart",
