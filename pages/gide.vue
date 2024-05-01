@@ -84,7 +84,6 @@ export default {
   display: flex
   flex-direction: column
   align-items: center
-  text-align: justify
 h1
   font-size: 3.4em
   line-height: 1
@@ -103,6 +102,7 @@ h3
   flex-direction: column
   align-items: center
   white-space: pre-wrap
+  text-align: justify
   & img
     width: 60vw
     margin: 20px

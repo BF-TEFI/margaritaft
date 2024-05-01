@@ -80,12 +80,12 @@ h3
 .info
     width: 100%
     display: flex
-    margin: 10px
+    margin: 5px
     padding: 5px
     justify-content: center
     align-items: center
     & .photo
-        flex: 0 0 60%
+        flex: 0 0 50%
         padding: 5px
         display: flex
         max-height: 90vh
@@ -93,8 +93,9 @@ h3
             object-fit: contain
             width: 100%
     & .more
-        flex: 0 0 40%
+        flex: 0 0 50%
     & ul
+        width: 90%
         padding: 5px
         & li
             list-style: circle
@@ -117,6 +118,8 @@ h3
         margin: 0 auto
     .info
         flex-direction: column
+        & ul
+            width: 100%
     h1
         text-align: center
         padding: 5px

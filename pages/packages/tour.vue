@@ -23,7 +23,7 @@
         </div>
         <Photogallery/>
         <Booking
-        pld="Фотосессия + экскурсия"
+        :pld="Фотосессия + экскурсия"
         :pack="false"/>
     </div>
 </template>
@@ -45,15 +45,23 @@ h1
     font-size: 3.4em
     line-height: 1
     text-align: center
+h2
+    font-size: 2.4em
+    line-height: 1
+    text-align: center
+h3
+    font-size: 1.5em
+    line-height: 1
+    text-align: center
 .info
     width: 100%
     display: flex
-    margin: 10px
+    margin: 5px
     padding: 5px
     justify-content: center
     align-items: center
     & .photo
-        flex: 0 0 60%
+        flex: 0 0 50%
         padding: 5px
         display: flex
         max-height: 90vh
@@ -61,14 +69,17 @@ h1
             object-fit: contain
             width: 100%
     & .more
-        flex: 0 0 40%
+        flex: 0 0 50%
     & ul
+        width: 90%
         padding: 5px
         & li
             list-style: circle
             font-size: 1rem
             font-weight: 600
             line-height: 2
+.dress img
+    width: 60vw
 .price
     font-size: 3.4em
     font-weight: 900
@@ -83,6 +94,8 @@ h1
         margin: 0 auto
     .info
         flex-direction: column
+        & ul
+            width: 100%
     h1
         text-align: center
         padding: 5px
@@ -91,4 +104,6 @@ h1
         margin: 5px
     .price
         text-align: center
+    .dress img
+        width: 90vw
 </style>
