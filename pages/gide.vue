@@ -84,6 +84,7 @@ export default {
   display: flex
   flex-direction: column
   align-items: center
+  text-align: justify
 h1
   font-size: 3.4em
   line-height: 1
@@ -132,6 +133,7 @@ h3
           font-size: 1rem
           font-weight: 600
           line-height: 2
+          text-align: justify
 .price
   font-size: 3.4em
   font-weight: 900
@@ -146,12 +148,12 @@ h3
       margin: 0 auto
   .info
       flex-direction: column
+      & ul
+        width: 100%
   h1
       text-align: center
       padding: 5px
       font-size: 2.2em
-  ul
-    width: 95%
   li
       margin: 5px
   .price
