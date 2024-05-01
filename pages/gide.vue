@@ -6,6 +6,7 @@
           <div class="info">
             <div class="text blue">
             Эти короткие заметки помогут вам качественно отдохнуть на острове Маргарита в Венесуэле. Полная версия списка советов, благодаря которым вы узнаете, как увидать максимум и сэкономить, доступна в нашем авторском Гайде. Чтобы получить его, отправьте запрос через форму внизу страницы.
+            <img src="~static/images/gide_00.jpg" alt="">
 
             <h3 class="orange">Советы перед фотосессией</h3>
 
@@ -101,7 +102,7 @@ h3
   white-space: pre-wrap
   & img
     width: 60vw
-    margin: 5px
+    margin: 20px
 .info
   width: 100%
   display: flex
@@ -109,6 +110,7 @@ h3
   padding: 5px
   justify-content: center
   align-items: center
+  // text-align: center
   & .photo
       flex: 0 0 60%
       padding: 5px
@@ -120,6 +122,8 @@ h3
   & .more
       flex: 0 0 40%
   & ul
+      width: 75%
+      margin: 0 auto
       padding: 10px
       & li
           list-style: circle
