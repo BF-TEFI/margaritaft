@@ -150,6 +150,8 @@ h3
       text-align: center
       padding: 5px
       font-size: 2.2em
+  ul
+    width: 95%
   li
       margin: 5px
   .price
