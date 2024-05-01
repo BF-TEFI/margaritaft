@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="section is-large booking">
+    <div id="booking" class="section is-large booking">
       <div class="booking_form">
         <div class="content">
           <h4>{{ title }}</h4>
