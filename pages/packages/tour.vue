@@ -23,7 +23,7 @@
         </div>
         <Photogallery/>
         <Booking
-        :pld="Фотосессия + экскурсия"
+        pld="Фотосессия + экскурсия"
         :pack="false"/>
     </div>
 </template>
