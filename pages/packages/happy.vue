@@ -46,7 +46,9 @@
           </div>
         </div>
         <Photogallery/>
-        <Booking/>
+        <Booking
+        pld="3 часа счастья"
+        :pack="false"/>
     </div>
 </template>
 

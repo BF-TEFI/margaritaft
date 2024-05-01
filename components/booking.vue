@@ -3,7 +3,7 @@
     <div class="section is-large booking">
       <div class="booking_form">
         <div class="content">
-          <h4>Оставить заявку на фотосессию</h4>
+          <h4>{{ title }}</h4>
         </div>
         <div v-if="error.status" class="label notification is-danger error">
           {{ this.error.message }}
@@ -25,7 +25,7 @@
             />
           </div>
         </div>
-        <div class="field">
+        <div v-if="pack" class="field">
           <div class="label">Фотосессия:</div>
           <div class="select is-link">
             <select v-model="booking.type">
@@ -57,6 +57,23 @@
 <script>
 export default {
   name: 'BookingComponent',
+  props: {
+    title: {
+      type: String,
+      require: false,
+      default: 'Оставить заявку на фотосессию'
+    },
+    pack: {
+      type: Boolean,
+      require: false,
+      default: true
+    },
+    pld: {
+      type: String,
+      require: false,
+      default: '- Не выбрано -'
+    }
+  },
   data () {
     return {
       calendar: false,
@@ -70,12 +87,8 @@ export default {
         message: ''
       },
       booking: {
-        type: '- Не выбрано -',
-        name: '',
-        phone: '',
-        height: '- укажите ваш вес -',
-        weight: '- укажите ваш рост -',
-        date: ''
+        type: this.pld,
+        phone: ''
       }
     }
   },
@@ -98,13 +111,8 @@ export default {
   methods: {
     validate () {
       if (this.PersonalData) {
-        if (this.booking.type !== '- Не выбрано -' && this.booking.name && this.booking.phone && this.booking.date) {
-          if (this.booking.type === 'Прыжок в тандеме' && (this.booking.height === '- укажите ваш вес -' || this.booking.weight === '- укажите ваш рост -')) {
-            this.error.status = true
-            this.error.message = 'Необходимо указать рост и вес'
-          } else {
-            this.send()
-          }
+        if (this.booking.type !== '- Не выбрано -' && this.booking.phone) {
+          this.send()
         } else {
           this.error = {
             status: true, message: 'Все поля должны быть заполнены!'
@@ -116,22 +124,20 @@ export default {
       }
     },
     send () {
-      const dat = (this.booking.type === 'Прыжок в тандеме') ? {
-        date: this.booking.date, type: 'Тандем', name: this.booking.name, weight: this.booking.weight, height: this.booking.height, phone: this.booking.phone
-      } : {
-        date: this.booking.date, type: 'Д-6', name: this.booking.name, phone: this.booking.phone
-      }
-      this.$axios.post('api/v1/booking/', {
+      var dat = { phone: this.booking.phone, type: this.booking.type }
+      this.$axios.post('api/v1/margaritaft/booking/', {
         data: dat
       })
         .then((response) => {
           this.success.status = true
+          this.error.status = false
           this.success.message = response.data.msg
           this.booking = {
-            type: '- Не выбрано -', name: '', phone: '', height: '- укажите ваш вес -', weight: '- укажите ваш рост -', date: ''
+            type: this.pld , phone: ''
           }
         })
         .catch((err) => {
+          this.success.status = false
           this.error.status = true
           this.error.message = err
         })
@@ -140,7 +146,7 @@ export default {
       this.error = { status: false, message: '' }
       this.success = { status: false, message: '' }
       this.booking = {
-        type: '- Не выбрано -', name: '', phone: '', height: '- укажите ваш вес -', weight: '- укажите ваш рост -', date: ''
+        type: this.pld , phone: ''
       }
     }
   }
@@ -176,5 +182,4 @@ export default {
 .error, .success
   text-align: center
   text-transform: uppercase
-
 </style>

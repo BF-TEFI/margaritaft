@@ -47,7 +47,9 @@
           </div>
         </div>
         <Photogallery/>
-        <Booking/>
+        <Booking
+        pld="Smart-пакет"
+        :pack="false"/>
     </div>
 </template>
 

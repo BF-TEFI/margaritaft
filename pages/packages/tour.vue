@@ -22,7 +22,9 @@
           </div>
         </div>
         <Photogallery/>
-        <Booking/>
+        <Booking
+        :pld="Фотосессия + экскурсия"
+        :pack="false"/>
     </div>
 </template>
 

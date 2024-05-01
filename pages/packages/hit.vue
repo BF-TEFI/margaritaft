@@ -46,7 +46,9 @@
           </div>
         </div>
         <Photogallery/>
-        <Booking/>
+        <Booking
+        pld="Хит-пакет"
+        :pack="false"/>
     </div>
 </template>
 
