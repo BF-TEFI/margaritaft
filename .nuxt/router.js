@@ -31,22 +31,22 @@ export const routerOptions = {
     path: "/packages/happy",
     component: _c6ab1152,
     meta: {"name":"HappyPackPage"},
-    name: "packages/happy"
+    name: "packages-happy"
   }, {
     path: "/packages/hit",
     component: _14a5e36c,
     meta: {"name":"hitPackPage"},
-    name: "packages/hit"
+    name: "packages-hit"
   }, {
     path: "/packages/smart",
     component: _7861cc80,
     meta: {"name":"SmartPackPage"},
-    name: "packages/smart"
+    name: "packages-smart"
   }, {
     path: "/packages/tour",
     component: _3d8ac99e,
     meta: {"name":"TourPackPage"},
-    name: "packages/tour"
+    name: "packages-tour"
   }, {
     path: "/",
     component: _3fc914c9,

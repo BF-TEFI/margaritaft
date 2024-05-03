@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div id="booking" class="section is-large booking">
+  <div id="booking">
+    <div class="section is-large booking">
       <div class="booking_form">
         <div class="content">
           <h4>{{ title }}</h4>
@@ -170,16 +170,23 @@ export default {
     font-weight: bold
   &_form
     width: clamp(400px, 40%, 600px)
-    border: 1px solid #ccc
+    border: 1px solid #1a1a1a
     border-radius: 5px
-    box-shadow: 0, 2px #000
-    background: rgba(255, 255, 255, 0.7)
+    box-shadow: 0, 2px, 10px #000
+    // background: rgba(255, 255, 255, 0.7)
+    background-color: #2a2a2a
     padding: 10px
     & .select, select
       width: 100%
     & .send
       text-align: center
+.label
+    color: #e0e0e0
+h4
+  color: #FF7F50
 .error, .success
   text-align: center
   text-transform: uppercase
+.checkbox:hover
+  color: #5ca9ff
 </style>

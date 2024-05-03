@@ -130,6 +130,7 @@ export default {
   height: 5rem
 .feedback-text
   padding: 20px
+  color: #1a1a1a
 .feedback-photo
   margin-top: 20px
 </style>

@@ -24,7 +24,7 @@
                 <p>{{ b }}</p>
             </div>
             <div class="action">
-                <a class="btn" href="#booking">Забронировать</a>
+                <Nuxt-link class="btn" :to="{path: '/', hash: 'booking'}">Забронировать</Nuxt-link>
             </div>
         </div>
     </div>
@@ -93,9 +93,10 @@ export default {
     flex-direction: column
     padding: 2px
     margin: 0 auto
-    background-color: rgba(239, 239, 239, .9)
-    border: 2px solid rgba(239, 239, 239, .9)
-    box-shadow: 0 2px 3px #666
+    // background-color: rgba(239, 239, 239, .9)
+    background-color: #303030
+    border: 2px solid #e0e0e0
+    box-shadow: 0 2px 3px #1a1a1a
     overflow: hidden
     border-radius: 15px
 .head, .body, .Bottom, .action
@@ -118,11 +119,11 @@ export default {
         display: flex
         flex-direction: column
         & .description
-            background-color: rgba(40, 40, 40, .9)
+            background-color: rgba(30, 30, 30, .9)
             width: 100%
             height: 80%
             padding: 3px
-            color: #fff
+            color: #e0e0e0
             display: flex
             justify-content: center
             align-items: center
@@ -131,17 +132,18 @@ export default {
         & .price
             width: 100%
             height: 20%
-            background-color: #ed6b3a
+            background-color: #FF7F50
             display: flex
             justify-content: center
             align-items: center
-            color: #1b2338
+            color: #fff
 .body
     & li
         display: flex
         flex-wrap: nowrap
         align-items: center
         margin: 5px 0
+        color: #e0e0e0
         & img
             margin-right: 5px
         & p
@@ -154,24 +156,24 @@ export default {
     padding: 5px
     font-size: .9rem
     white-space: pre
-    background-color: rgba(40, 40, 40, .9)
-    color: #fff
+    text-align: justify
+    background-color: #2a2a2a
+    color: #e0e0e0
 .btn
     display: block
     width: 100%
     border-radius: 0.5rem
-    border: 0.125em solid #1a2036
+    border: 0.125em solid #FF7F50
     /* background-color: #3B3B3B */
     padding: 0.50rem 1rem
     text-align: center
     font-size: 0.875rem
     line-height: 1.25rem
     font-weight: 600
-    color: #1a2036
+    color: #FF7F50
     outline: 2px solid transparent
     outline-offset: 2px
     transition: all .1s cubic-bezier(0.4, 0, 0.2, 1)
     &:hover
         color: #fff
-        background-color: #ed6b3a
   </style>

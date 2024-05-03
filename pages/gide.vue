@@ -2,9 +2,9 @@
   <div>
       <Back/>
       <div class="wrap">
-          <h1 class="blue">Гайд по острову Маргарита</h1>
+          <h1 class="">Гайд по острову Маргарита</h1>
           <div class="info">
-            <div class="text blue">
+            <div class="text">
             Эти короткие заметки помогут вам качественно отдохнуть на острове Маргарита в Венесуэле. Полная версия списка советов, благодаря которым вы узнаете, как увидеть максимум и сэкономить, доступна в нашем авторском Гайде. Чтобы получить его, отправьте запрос через форму внизу страницы.
             <img src="~static/images/gide_00.jpg" alt="">
 
@@ -84,6 +84,8 @@ export default {
   display: flex
   flex-direction: column
   align-items: center
+h1, h2, h3, h4
+  color: #5ca9ff
 h1
   font-size: 3.4em
   line-height: 1

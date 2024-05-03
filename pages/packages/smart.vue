@@ -2,7 +2,7 @@
     <div>
         <Back/>
         <div class="wrap">
-            <h1 class="blue">Фотосессия "Smart-пакет"</h1>
+            <h1 class="">Фотосессия "Smart-пакет"</h1>
           <div class="info">
             <div class="photo">
           <img src="~static/images/slide_item_004.jpg" alt="">
@@ -66,6 +66,8 @@ export default {
     display: flex
     flex-direction: column
     align-items: center
+h1, h2, h3, h4
+    color: #5ca9ff
 h1
     font-size: 3.4em
     line-height: 1

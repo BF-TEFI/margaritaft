@@ -57,7 +57,7 @@
                 </div>
             </div>
             <div class="other">
-      <h3 class="blue">Фотосессия на Маргарите – прекрасная идея! Потому что:</h3>
+      <h3 class="">Фотосессия на Маргарите – прекрасная идея! Потому что:</h3>
       <p>
       Вы получите сочные, качественные, необычные фотографии для соцсетей и семейного архива.
       Профессиональный фотограф подскажет, как встать, сесть и лечь, подберет самые выигрышные ракурсы. 
@@ -107,11 +107,11 @@ export default {
 <style lang='sass' scoped>
 .block-wrap
   padding: 1rem
-  background: linear-gradient(rgba(0, 0, 0, .9), rgba(239, 239, 239, .8)), url(~static/images/quickmenu_bg.jpg) center / cover no-repeat
+  background: linear-gradient(rgba(0, 0, 0, 1), rgba(0 , 0, 0, .5)), url(~static/images/quickmenu_bg.jpg) center / cover no-repeat
 .title
   width: 100%
   text-align: center
-  color: #fff
+  color: #e0e0e0
 .other
   width: 100%
   padding: 1rem
@@ -123,6 +123,9 @@ export default {
   & p
     font-weight: 600
     line-height: 2
+    color: #e0e0e0
+  & h3
+    color: #e0e0e0
 @include small
   .other
     color: #000

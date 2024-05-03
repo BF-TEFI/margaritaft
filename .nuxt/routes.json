@@ -11,7 +11,7 @@
     "_name": "_31eeb7bc"
   },
   {
-    "name": "packages/happy",
+    "name": "packages-happy",
     "path": "/packages/happy",
     "component": "/Users/polyakovva/DATA/margarita/margaritaft/pages/packages/happy.vue",
     "chunkName": "pages/packages/happy",
@@ -22,7 +22,7 @@
     "_name": "_c6ab1152"
   },
   {
-    "name": "packages/hit",
+    "name": "packages-hit",
     "path": "/packages/hit",
     "component": "/Users/polyakovva/DATA/margarita/margaritaft/pages/packages/hit.vue",
     "chunkName": "pages/packages/hit",
@@ -33,7 +33,7 @@
     "_name": "_14a5e36c"
   },
   {
-    "name": "packages/smart",
+    "name": "packages-smart",
     "path": "/packages/smart",
     "component": "/Users/polyakovva/DATA/margarita/margaritaft/pages/packages/smart.vue",
     "chunkName": "pages/packages/smart",
@@ -44,7 +44,7 @@
     "_name": "_7861cc80"
   },
   {
-    "name": "packages/tour",
+    "name": "packages-tour",
     "path": "/packages/tour",
     "component": "/Users/polyakovva/DATA/margarita/margaritaft/pages/packages/tour.vue",
     "chunkName": "pages/packages/tour",

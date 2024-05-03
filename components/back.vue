@@ -24,15 +24,15 @@ export default {
 .back
   position: sticky
   position: -webkit-sticky
-  background-color: #e8e8e8
+  background-color: #1a1a1a
   top: 0
   width: 100%
   padding: 5px 15px
   cursor: pointer
-  color: #777
+  color: #e0e0e0
   z-index: 10
   &:hover
-    color: #f88c02
+    color: #FF7F50
     text-decoration: none
   &:focus
     background-color: #e8e8e8
