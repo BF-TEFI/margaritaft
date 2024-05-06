@@ -24,7 +24,7 @@
                 <p>{{ b }}</p>
             </div>
             <div class="action">
-                <Nuxt-link class="btn" :to="{path: '/', hash: 'booking'}">Забронировать</Nuxt-link>
+                <a @click="$goto('#booking')" class="btn">Забронировать</a>
             </div>
         </div>
     </div>
@@ -82,6 +82,11 @@ export default {
     },
     data() {
         return {}
+    },
+    methods: {
+        goto(url) {
+            this.$goto(url)
+        }
     }
 }
 </script>

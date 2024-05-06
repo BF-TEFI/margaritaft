@@ -64,7 +64,6 @@ export default {
   },
   methods: {
     show (item) {
-      console.log(item)
       this.$modal('photogallery', item)
     }
   }

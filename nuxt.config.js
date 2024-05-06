@@ -39,7 +39,8 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     { src: '~plugins/observer.js', mode: 'client' },
-    { src: '~plugins/showmodal.js', mode: 'client' }
+    { src: '~plugins/showmodal.js', mode: 'client' },
+    { src: '~plugins/goto.js', mode: 'client' }
     // { src: '~plugins/websocket.js', mode: 'client' },
     // { src: '~plugins/axios.js', mode: 'client' }
     // { src: '~plugins/socialauth.js', mode: 'client' },
@@ -78,10 +79,10 @@ export default {
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
-  // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
-  baseURL: 'https://back.skyjumping.ru/',
-  // baseURL: 'https://needapp.ru/',
-  // proxy: true
+    // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
+    baseURL: 'https://back.skyjumping.ru/',
+    // baseURL: 'https://needapp.ru/',
+    // proxy: true
   },
 
   // proxy: {
@@ -124,12 +125,8 @@ export default {
   router: {
     // middleware: ['verify'],
     // routeNameSplitter: '/',
-    scrollBehavior(to, from, savedPosition) {
-      if (to.hash) {
-          return { selector: to.hash }
-        } else {
-        return { x: 0, y: 0 }
-      }
+    scrollBehavior (to, from, savedPosition) {
+      return { x: 0, y: 0 }
     }
   }
 }
