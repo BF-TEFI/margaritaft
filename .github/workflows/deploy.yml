@@ -1,0 +1,44 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [17.x]
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      # Build
+      - run: npm ci
+      - run: npm run build
+      
+
+      # Deploy
+      - name: Rsync files
+        uses: burnett01/rsync-deployments@5.1
+        with:
+          switches: -avzr --delete --exclude 'node_modules'
+          path: .nuxt static tmp
+          remote_path: margaritaft.com/margaritaft/
+          remote_host: polyakovva.beget.tech
+          remote_user: polyakovva
+          remote_key: ${{ secrets.KEY }}
+
+      - name: restart server
+        uses: appleboy/ssh-action@master
+        with:
+          host: polyakovva.beget.tech
+          username: polyakovva
+          key: ${{ secrets.KEY }}
+          script: |
+            cd margaritaft.com/margaritaft
+            touch tmp/restart.txt
