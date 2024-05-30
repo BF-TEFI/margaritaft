@@ -11,6 +11,8 @@ You can directly use them in pages and other components without the need to impo
 - `<Booking>` | `<booking>` (components/booking.vue)
 - `<Card>` | `<card>` (components/card.vue)
 - `<Cards>` | `<cards>` (components/cards.vue)
+- `<Faq>` | `<faq>` (components/faq.vue)
+- `<Faqcomp>` | `<faqcomp>` (components/faqcomp.vue)
 - `<Feedback>` | `<feedback>` (components/feedback.vue)
 - `<Footer>` | `<footer>` (components/footer.vue)
 - `<Introduction>` | `<introduction>` (components/introduction.vue)

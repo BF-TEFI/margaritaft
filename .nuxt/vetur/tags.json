@@ -14,6 +14,12 @@
   "Cards": {
     "description": "Auto imported from components/cards.vue"
   },
+  "Faq": {
+    "description": "Auto imported from components/faq.vue"
+  },
+  "Faqcomp": {
+    "description": "Auto imported from components/faqcomp.vue"
+  },
   "Feedback": {
     "description": "Auto imported from components/feedback.vue"
   },
