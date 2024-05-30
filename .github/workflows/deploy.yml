@@ -42,3 +42,4 @@ jobs:
           script: |
             cd margaritaft.com/margaritaft
             touch tmp/restart.txt
+        # 
